@@ -75,11 +75,11 @@ export default {
       type: 'array',
       of: [{type: 'propertyImage'}]
     },
-    // {
-    //   name: 'host',
-    //   title: 'Host',
-    //   type: 'host'
-    // },
+    {
+      name: 'host',
+      title: 'Host',
+      type: 'host'
+    },
     {
       name: 'review',
       title: 'Reviews',
