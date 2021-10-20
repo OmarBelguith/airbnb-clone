@@ -14,7 +14,7 @@ export default {
       title: 'Slug',
       type: 'slug',
       options: {
-        source: 'name',
+        source: 'fullName',
         maxLength: 100
       }
     },
@@ -30,7 +30,7 @@ export default {
     },
   ],
   preview: {
-    selecet: {
+    select: {
       title: 'fullName', media: 'image'
     }
   }
