@@ -74,6 +74,17 @@ export default {
       title: 'Images',
       type: 'array',
       of: [{type: 'propertyImage'}]
+    },
+    // {
+    //   name: 'host',
+    //   title: 'Host',
+    //   type: 'host'
+    // },
+    {
+      name: 'review',
+      title: 'Reviews',
+      type: 'array',
+      of: [{type: 'review'}]
     }
   ]
 }

@@ -7,6 +7,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 // we import object and document Schema
 import property from './property';
 import propertyImage from './propertyImage';
+import review from './review';
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -16,6 +17,7 @@ export default createSchema({
   types: schemaTypes.concat([
     /* Your types here! */
     property,
-    propertyImage
+    propertyImage,
+    review
   ]),
 })
