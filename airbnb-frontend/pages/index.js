@@ -8,9 +8,10 @@ export default function Home() {
 }
 
 export const getServerSideProps = async (ctx) => {
+  
   const query = '*[ _type == "property"]'
   const properties = await sanityClient.fetch(query);
-
+  console.log(properties);
   if( !properties.length){
     return {
       props: {

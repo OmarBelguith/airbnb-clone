@@ -81,7 +81,7 @@ export default {
       type: 'host'
     },
     {
-      name: 'review',
+      name: 'reviews',
       title: 'Reviews',
       type: 'array',
       of: [{type: 'review'}]
